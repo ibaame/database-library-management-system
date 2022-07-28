@@ -9,7 +9,7 @@ In this project, you will use a Database Management System to create and manipul
 We need to store information about different types of employees (Managers, Workers), Library Branches in different colleges , Students, Books, Publisher (Books details such as ISBN, author, published date, publisher name and address). Borrow information (Books ISBM, students who borrows it, borrow date and due date , an employee who give the books to the borrowers, ... etc). Other requirements are as follows: 
 
 1. An employee can be either a worker or a manager.
-2. A library has different branches distributed in colleges (Computer School Library, Eng. School libraries, … etc). 
+2. A library has different branches distributed in colleges (Computer School Library, Eng. School libraries, ... etc). 
 3. These branches must have only one manager and can have either one or multiple employees.
 4. Each branch contains books related to the school. 
 5. Only students can borrow books and the borrow process must be approved by a worker.
@@ -21,6 +21,17 @@ We need to store information about different types of employees (Managers, Worke
 
 
 
+<hr>
+
+### **ER-diagram**
+
+<img src="images/draw/ER_diagram.png" alt="ER-diagram" />
+
+<hr>
+
+### **Relation model**
+
+<img src="images/draw/relation_model.png" alt="relation model" />
 <hr>
 <br>
 
@@ -36,18 +47,6 @@ We need to store information about different types of employees (Managers, Worke
 
 <br>
 <img src="images/tabels_structures/tabels_in_library.png" alt="tables"/>
-<hr>
-
-### **ER-diagram**
-
-<img src="images/draw/ER_diagram.png" alt="ER-diagram" />
-
-<hr>
-
-### **Relation model**
-
-<img src="images/draw/relation_model.png" alt="relation model" />
-
 <hr>
 <br>
 
