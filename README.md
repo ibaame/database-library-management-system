@@ -37,13 +37,13 @@ We need to store information about different types of employees (Managers, Worke
 
 ### **Tables**
 
-* **Author**(<u>author_ID</u>, author_name, address)
-* **Book**(<u>ISBN</u>, book_name, published_date, publisher_name, copies, branch_ID )
-* **Borrow**(<u>ISBN, student_ID, approved_by, borrow_date</u>, return_date )
-* **Branch**(<u>branch_ID</u>, branch_name, college)
-* **Employee**(<u>Emp_ID</u>, first_name, last_name, email, address, job_title, date_of_birth, start_date, last_date, phone, branch_ID  )
-* **Student**(<u>student_ID</u>, first_name, last_name, date_of_birth, phone, address, college, department)
-* **Published_by**(<u>ISBN, author_ID</u>)
+* **Author**(**author_ID**, author_name, address)
+* **Book**(**ISBN**, book_name, published_date, publisher_name, copies, branch_ID )
+* **Borrow**(**ISBN, student_ID, approved_by, borrow_date**, return_date )
+* **Branch**(**branch_ID**, branch_name, college)
+* **Employee**(**Emp_ID**, first_name, last_name, email, address, job_title, date_of_birth, start_date, last_date, phone, branch_ID  )
+* **Student**(**student_ID**, first_name, last_name, date_of_birth, phone, address, college, department)
+* **Published_by**(**SBN, author_ID**)
 
 <br>
 <img src="images/tabels_structures/tabels_in_library.png" alt="tables"/>
